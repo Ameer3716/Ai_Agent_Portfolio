@@ -52,7 +52,7 @@ export default function Header() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-live opacity-75" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-live" />
           </span>
-          <span className="gradient-text-animate font-semibold">
+          <span className="gradient-text-animate font-semibold" data-cursor>
             {profile.name}
           </span>
         </Link>
@@ -66,8 +66,8 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "group relative py-1 font-mono text-[11px] uppercase tracking-widest transition-colors hover:text-foreground",
-                  active ? "text-foreground" : "text-muted-foreground"
+                  "group relative py-1 font-mono text-[11px] font-bold uppercase tracking-widest text-white transition-colors hover:text-primary",
+                  active ? "text-white" : "text-white"
                 )}
               >
                 {link.label}

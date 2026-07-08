@@ -5,6 +5,7 @@ import { profile } from "@/data/projects";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
+import CustomCursor from "@/components/CustomCursor";
 
 // Terminal chrome: prompts, badges, buttons, pipeline labels.
 const mono = JetBrains_Mono({
@@ -45,7 +46,8 @@ export default function RootLayout({
       lang="en"
       className={`${mono.variable} ${sans.variable} ${display.variable}`}
     >
-      <body className="noise font-sans antialiased">
+      <body className="noise font-sans antialiased lg:cursor-none">
+        <CustomCursor />
         <ScrollProgress />
         <Header />
         {children}
