@@ -1,10 +1,11 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { profile } from "@/data/projects";
 import RevealOnScroll from "./RevealOnScroll";
 import { Button } from "@/components/ui/button";
 
 const SOCIALS = [
   { href: `mailto:${profile.email}`, icon: Mail, label: "Email" },
+  { href: `tel:${profile.phone}`, icon: Phone, label: "Phone" },
   { href: profile.github, icon: Github, label: "GitHub" },
   { href: profile.linkedin, icon: Linkedin, label: "LinkedIn" },
 ];

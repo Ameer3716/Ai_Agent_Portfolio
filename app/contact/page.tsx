@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Github, Linkedin, Mail, ArrowRight } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, ArrowRight } from "lucide-react";
 import { profile } from "@/data/projects";
 import RevealOnScroll from "@/components/RevealOnScroll";
 import ContactForm from "@/components/ContactForm";
@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 
 const SOCIALS = [
   { href: `mailto:${profile.email}`, icon: Mail, label: "Email", value: profile.email },
+  { href: `tel:${profile.phone}`, icon: Phone, label: "Phone", value: profile.phone },
   { href: profile.github, icon: Github, label: "GitHub", value: "github.com/Ameer3716" },
   { href: profile.linkedin, icon: Linkedin, label: "LinkedIn", value: "LinkedIn" },
 ];

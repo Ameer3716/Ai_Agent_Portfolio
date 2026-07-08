@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Github, Linkedin, ArrowUp } from "lucide-react";
+import { Mail, Github, Linkedin, Phone, ArrowUp } from "lucide-react";
 import { profile } from "@/data/projects";
 
 const QUICK_LINKS = [
@@ -12,6 +12,7 @@ const QUICK_LINKS = [
 
 const SOCIALS = [
   { href: `mailto:${profile.email}`, icon: Mail, label: "Email" },
+  { href: `tel:${profile.phone}`, icon: Phone, label: "Phone" },
   { href: profile.github, icon: Github, label: "GitHub" },
   { href: profile.linkedin, icon: Linkedin, label: "LinkedIn" },
 ];

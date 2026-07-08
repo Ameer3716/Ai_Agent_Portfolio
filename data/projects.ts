@@ -32,6 +32,7 @@ export const profile = {
   role: "Full Stack AI Engineer",
   bio: "Software Engineering graduate from FAST-NUCES with hands-on experience in AI engineering, full-stack development, and cloud technologies. Passionate about building production-ready AI systems that solve real-world problems.",
   email: "ameersultan0310@gmail.com",
+  phone: "03127191661",
   github: "https://github.com/Ameer3716",
   linkedin: "https://www.linkedin.com/in/ameer-sultan",
   // TODO: drop your latest CV in /public and point this at it (e.g. "/CV.pdf")
