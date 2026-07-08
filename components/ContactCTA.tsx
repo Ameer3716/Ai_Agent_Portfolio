@@ -23,14 +23,14 @@ export default function ContactCTA() {
             <div className="relative">
               <div className="mx-auto mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-3.5 py-1.5 font-mono text-xs text-muted-foreground">
                 <span className="available-dot" aria-hidden="true" />
-                Currently available for freelance work
+                Open to onsite, remote, and freelance roles
               </div>
 
               <h2 className="font-display text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
                 Got a project in <span className="gradient-text-animate">mind?</span>
               </h2>
               <p className="mx-auto mt-4 max-w-md leading-relaxed text-muted-foreground">
-                Open to freelance AI agent work and junior AI engineering roles. I reply within
+                Open to onsite, remote, and freelance AI agent work and junior AI engineering roles. I reply within
                 24 hours.
               </p>
 

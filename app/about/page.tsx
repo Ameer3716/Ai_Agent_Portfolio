@@ -36,9 +36,9 @@ const TIMELINE = [
 ];
 
 const LOOKING_FOR = [
-  "Freelance AI agent & automation work",
+  "Onsite, remote, or freelance AI agent & automation work",
   "Junior AI / Full Stack AI Engineer roles",
-  "Remote-first teams",
+  "Teams open to flexible engagement styles",
   "Problems worth building a real pipeline for",
 ];
 

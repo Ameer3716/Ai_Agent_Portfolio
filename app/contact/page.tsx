@@ -6,7 +6,7 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: `Contact - ${profile.name}`,
-  description: `Get in touch with ${profile.name} about freelance AI agent work or junior AI engineering roles.`,
+  description: `Get in touch with ${profile.name} about onsite, remote, or freelance AI and engineering roles.`,
 };
 
 const SOCIALS = [
@@ -20,7 +20,7 @@ const EXPECTATIONS = [
   "Response within 24 hours",
   "Open to async communication",
   "Can start immediately",
-  "Remote-first preferred",
+  "Open to onsite, remote, and freelance roles",
 ];
 
 export default function ContactPage() {
@@ -33,7 +33,7 @@ export default function ContactPage() {
         </h1>
         <div className="section-divider" />
         <p className="mt-2 max-w-lg text-muted-foreground">
-          Open to freelance AI agent work and junior AI engineering roles. I reply within 24 hours.
+          Open to onsite, remote, and freelance AI agent or engineering roles. I reply within 24 hours.
         </p>
       </RevealOnScroll>
 
@@ -50,8 +50,8 @@ export default function ContactPage() {
                 <span className="text-sm font-semibold text-foreground">Currently Available</span>
               </div>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                Open to freelance AI agent projects and junior AI / Full Stack AI Engineer roles.
-                Remote-friendly, and can start right away.
+                Open to onsite, remote, and freelance AI agent projects and junior AI / Full Stack AI Engineer roles.
+                Flexible across location and engagement type, and can start right away.
               </p>
             </div>
           </RevealOnScroll>

@@ -37,7 +37,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/ameer-sultan",
   // TODO: drop your latest CV in /public and point this at it (e.g. "/CV.pdf")
   resumeUrl: null as string | null,
-  location: "Pakistan · Remote-first",
+  location: "Pakistan · Open to onsite, remote, and freelance roles",
 };
 
 export const stack = [
@@ -128,7 +128,7 @@ export const projects: Project[] = [
   },
   {
     id: "instagram-ai-chatbot",
-    index: "05",
+    index: "04",
     name: "Instagram AI Chatbot Backend",
     status: "live",
     category: ["AI Agents", "Automation"],
@@ -149,7 +149,7 @@ export const projects: Project[] = [
   },
   {
     id: "ai-voice-agent-platform",
-    index: "06",
+    index: "05",
     name: "AI Voice Agent Platform",
     status: "live",
     category: ["SaaS", "Automation"],
@@ -169,7 +169,7 @@ export const projects: Project[] = [
   },
   {
     id: "enterprise-ai-agent-platform",
-    index: "04",
+    index: "06",
     name: "Enterprise AI Agent Platform",
     status: "in-progress",
     category: ["AI Agents", "SaaS"],

@@ -29,7 +29,7 @@ export default function Hero() {
             style={{ animationDelay: "0ms" }}
           >
             <span className="available-dot" aria-hidden="true" />
-            Available for freelance work
+            Open to onsite, remote, and freelance roles
           </div>
 
           <h1
