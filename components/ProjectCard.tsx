@@ -14,7 +14,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     <Card className="group flex h-full flex-col border-border/80 bg-card/60 backdrop-blur-sm hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_20px_50px_-20px_hsl(var(--primary)/0.35)]">
       <CardHeader className="flex-row flex-wrap items-start justify-between gap-4 space-y-0">
         <div className="flex items-baseline gap-3">
-          <span className="font-mono text-sm text-muted-foreground">
+          <span className="font-mono text-sm text-primary">
             {project.index}
           </span>
           <h3 className="font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
